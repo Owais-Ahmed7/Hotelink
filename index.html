@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit="no">
+    <title>Hotelink</title>
+
+    <!--Bootstrap css link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!--Bootstrap js link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!--Bootstrap Masonary Js-->
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
+
+    <!-- Css link -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--Font awesome link-->   
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css" rel="stylesheet">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- *____________Nav Bar___________* -->
+        
+      <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><i class="fas fa-square brand-icon"></i>Hotelink</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item ml-1 mr-1">
+                <a class="nav-link active ml-1 mr-1" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cafe & Bar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-booking" href="#">Book now</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+      
+
+      <!-- *____________Title Section___________* -->
+
+    <section id="title">
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-8 ">                         
+            <h1 class="title-h">Book Your Summer Holidays With Hotel</h1>
+            <p class="title-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum recusand rerum, sit qui molestias molestiae accusantium quaerat distinctio itaque porro voluptatum consectetur in blanditiis optio.
+            </p>
+            <button type="button" class="btn btn-lg title-but">Talk to us</button>
+          </div>
+
+          <div class="col-lg-4 title-icon-sect">
+            <i class="fas fa-hotel fa-7x title-icon"></i>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- *_____________Hotel Stay____________* -->
+
+
+
+    <section id="stay-section">      
+      <div class="container-fluid"> 
+        <div class="row">
+
+
+          <div class="col-lg-3 col-md-6 col-sm-6">
+
+            <div class="card stay-card">  
+              <div class="card-body card-location stay-card-body">
+       
+                <label class="card-title stay-label" for="location">Location</label>
+    
+                <div class="secondary-div">
+                  <i class="fas fa-map-marked-alt stay-icon"></i>
+                  <input class="stay-input location-input" type="searchbar" name="searchbar" id="location" placeholder="Enter Your Place">
+                </div> 
+              </div>   
+            </div> 
+
+          </div>
+          
+          <div class="col-lg-3 col-md-6 col-sm-6">
+
+            <div class="card stay-card check-div">  
+              <div class="card-body stay-card-body">
+    
+                <label class="card-title stay-label" for="check-in">Check in</label>  
+    
+                <div class="secondary-div">
+                  <i class="fas fa-clipboard-list-check stay-icon"></i>
+                  <input class="stay-input check-input" type="text" name="text" id="check-in" placeholder="16 Aug 2021">
+                </div>
+    
+              </div>    
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-6">
+
+            <div class="card stay-card check-div check-out">  
+              <div class="card-body stay-card-body">
+    
+                <label class="card-title stay-label" for="check-out">Check out</label>
+    
+                <div class="secondary-div">           
+                  <i class="fas fa-money-check-edit-alt stay-icon"></i>
+                  <input class="stay-input check-input" type="text" name="text" id="check-out" placeholder="20 Aug 2021">
+                </div>
+    
+              </div> 
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-6">
+
+            <div class="card stay-card night-div ">  
+              <div class="card-body stay-card-body">
+    
+                <label class="card-title stay-label" for="nights">Nights</label>
+    
+                <div class="secondary-div">
+                  <i class="fas fa-house-night stay-icon"></i>
+                  <input class="stay-input night-input" type="text" name="text" id="nights" placeholder="7 Nights">
+                </div>
+    
+              </div>           
+            </div>
+
+          </div>
+
+          <div class="col-lg-12 col-md-12 col-sm-12">  
+  
+            <div class="card">  
+              <div class="card-body">
+  
+               <button class="check-btn" type="button">Check Now</button>
+  
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+    
+    
+    <!-- *____________Carousel Section____________* -->
+
+    
+    <section id="carousel">
+
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 carousel-h2-div">
+             <h2 class="carousel-h2">Featured Hotels Locations</h2> 
+          </div>
+    
+          <div class="col-lg-6 col-md-6 col-sm-12 carousel-btns">     
+            <div class="btns-margin-left">
+              
+    
+              <button class="carousel-control-prev carousel-next-previous" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon carousel-icon-prev-next" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+      
+              <button class="carousel-control-next carousel-next-previous" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                <span class="carousel-control-next-icon carousel-icon-prev-next" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+    
+            </div>
+          </div> 
+        </div>
+
+
+        <!-- Carousel Content-->
+
+        <div id="carouselExampleControls" data-bs-ride="false" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+
+              <div class="row" data-masonry='{"percentPosition": true }'>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card hotel-arab-card">
+            
+                    <img class="card-img-top hotel-burj-sult-height hotel-imgs-border-radius" src="images/burj-al-arab.jpg" alt="Burj Al Araba">
+                  
+                    <div class="card-body hotel-body">
+            
+                      <h6 class="card-title hotel-title">Burj Al Arab</h6>
+                      <p class="hotel-para">UAE Dubai | Per Night 24000$ </p>
+                      <button class="btn btn-danger">Check Hotel</button>
+            
+                    </div> 
+                  </div>   
+                </div> 
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card hotel-arab-card">
+            
+                    <img class="card-img-top hotel-palm-img-height hotel-imgs-border-radius" src="images/atlantis-the palm.jpg" alt="Atlantis The Palm">
+                  
+                    <div class="card-body hotel-body">
+            
+                      <h6 class="card-title hotel-title">Atlantis The Palm</h6>
+                      <p class="hotel-para">UAE Dubai | Per Night 734$ </p>
+                      <button class="btn btn-danger">Check Hotel</button>
+            
+                    </div>
+                  </div>    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card hotel-arab-card">
+            
+                    <img class="card-img-top hotel-burj-sult-height hotel-imgs-border-radius" src="images/amar.jpg" alt="Grand Sultan Hotel">
+                  
+                    <div class="card-body hotel-body">
+            
+                      <h6 class="card-title hotel-title">Grand Sultan Hotel</h6>
+                      <p class="hotel-para">Las Vegas | Per Night 343$ </p>
+                      <button class="btn btn-danger">Check Hotel</button>
+            
+                    </div>
+                  </div>    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card hotel-arab-card">
+            
+                    <img class="card-img-top hotel-plaza-height hotel-imgs-border-radius" src="images/plaza.jpg" alt="Grand Sultan Hotel">
+                  
+                    <div class="card-body hotel-body">
+            
+                      <h6 class="card-title hotel-title">Plaza Hotel</h6>
+                      <p class="hotel-para">New York NY | Per Night 512$ </p>
+                      <button class="btn btn-danger">Check Hotel</button>
+            
+                    </div>
+                  </div>    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card hotel-arab-card">
+            
+                    <img class="card-img-top hotel-marquis-ranch-height hotel-imgs-border-radius" src="images/marguis.jpg" alt="Grand Sultan Hotel">
+                  
+                    <div class="card-body hotel-body">
+            
+                      <h6 class="card-title hotel-title">Sunset Marquis</h6>
+                      <p class="hotel-para">Los Angles | Per Night 312$ </p>
+                      <button class="btn btn-danger">Check Hotel</button>
+            
+                    </div>
+                  </div>    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+
+                  <div class="card hotel-arab-card">           
+                    <img class="card-img-top hotel-marquis-ranch-height hotel-imgs-border-radius" src="images/Ranch.jpg" alt="Grand Sultan Hotel">                  
+                    <div class="card-body hotel-body">            
+                      <h6 class="card-title hotel-title">Ranch Hotel</h6>
+                      <p class="hotel-para">Death Valley | Per Night 200$ </p>
+                      <button class="btn btn-danger">Check Hotel</button>            
+                    </div>
+
+                  </div>    
+                </div>
+
+              </div>
+            </div>
+
+      <!-- Carousel 2nd Side -->
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+
+                  <div class="card hotel-arab-card">           
+                    <img class="card-img-top hotel-marquis-ranch-height hotel-imgs-border-radius" src="images/lorem-ipsum-1.jpg" alt="Grand Sultan Hotel">                  
+                    <div class="card-body hotel-body">            
+                      <h6 class="card-title hotel-title">Lorem Ipsum Hotel</h6>
+                      <p class="hotel-para">Lorem Ipsum | Per Night 200$ </p>
+                      <button class="btn btn-danger">Check Hotel</button>            
+                    </div>
+
+                  </div>    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+
+                  <div class="card hotel-arab-card">           
+                    <img class="card-img-top hotel-marquis-ranch-height hotel-imgs-border-radius" src="images/lorem-ipsum-2.jpg" alt="Grand Sultan Hotel">                  
+                    <div class="card-body hotel-body">            
+                      <h6 class="card-title hotel-title">Lorem Ipsum Hotel</h6>
+                      <p class="hotel-para">Lorem Ipsum | Per Night 200$ </p>
+                      <button class="btn btn-danger">Check Hotel</button>            
+                    </div>
+
+                  </div>    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+
+                  <div class="card hotel-arab-card">           
+                    <img class="card-img-top hotel-marquis-ranch-height hotel-imgs-border-radius" src="images/lorem-ipsum-3.jpg" alt="Grand Sultan Hotel">                  
+                    <div class="card-body hotel-body">            
+                      <h6 class="card-title hotel-title">Lorem Ipsum Hotel</h6>
+                      <p class="hotel-para">Lorem Ipsum | Per Night 200$ </p>
+                      <button class="btn btn-danger">Check Hotel</button>            
+                    </div>
+
+                  </div>    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+
+                  <div class="card hotel-arab-card">           
+                    <img class="card-img-top hotel-marquis-ranch-height hotel-imgs-border-radius" src="images/lorem-ipsum-4.jpg" alt="Grand Sultan Hotel">                  
+                    <div class="card-body hotel-body">            
+                      <h6 class="card-title hotel-title">Lorem Ipsum Hotel</h6>
+                      <p class="hotel-para">Lorem Ipsum | Per Night 200$ </p>
+                      <button class="btn btn-danger">Check Hotel</button>            
+                    </div>
+
+                  </div>    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+
+                  <div class="card hotel-arab-card">           
+                    <img class="card-img-top hotel-marquis-ranch-height hotel-imgs-border-radius" src="images/lorem-ipsum-5.jpg" alt="Grand Sultan Hotel">                  
+                    <div class="card-body hotel-body">            
+                      <h6 class="card-title hotel-title">Lorem Ipsum Hotel</h6>
+                      <p class="hotel-para">Lorem Ipsum | Per Night 200$ </p>
+                      <button class="btn btn-danger">Check Hotel</button>            
+                    </div>
+
+                  </div>    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+
+                  <div class="card hotel-arab-card">           
+                    <img class="card-img-top hotel-marquis-ranch-height hotel-imgs-border-radius" src="images/lorem-ipsum-6.jpg" alt="Grand Sultan Hotel">                  
+                    <div class="card-body hotel-body">            
+                      <h6 class="card-title hotel-title">Lorem Ipsum Hotel</h6>
+                      <p class="hotel-para">Lorem Ipsum | Per Night 200$ </p>
+                      <button class="btn btn-danger">Check Hotel</button>            
+                    </div>
+
+                  </div>    
+                </div>
+ 
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- *_____________About Section____________* -->
+
+
+    <section id="about">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-6 about-col-1">
+   
+            <img class="hotelink-about-img" src="images/About-imgs/background-img.jpg" alt="">
+            
+            <img class="about-img about-img-1" src="images/About-imgs/about-1.jpg" alt="">
+            
+            <img class="about-img about-img-2" src="images/About-imgs/about-2.jpg" alt="">
+            
+            <img class="about-img about-img-3" src="images/About-imgs/about-3.jpg" alt="">
+
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-6 about-col-2">
+
+            <h2 class="col-2-h2">About Our Hotelink</h2>
+            <p class="col-2-para">Lorem Ipsum is simply dummy text of printing and typesetting industry Ipsum has been the industry's standard dummy text ever since the 1500s,When an unknow printiner took a gallery</p>
+            <p class="col-2-para2">There are many veriation of passages of Lorem Ipsum Available,But they have suffered allertion in some form, by injected</p>
+            <a class="btn btn-danger about-facility-btn" href="#">More About</a>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- *_____________Facility Section_____________* -->
+
+    <section id="facility">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-6 facility-col-1">
+              
+             <h1 class="facility-sect-h1">Why To Choose Us</h1>
+             <p class="facility-sect-para">Lorem Ipsum is simply dummy text of printing and typesetting industry Ipsum has been the industry's standard dummy text ever since the 1500s,When an unknow printiner took a gallery</p>
+             <a class="btn btn-danger about-facility-btn" class="facility-sect-btn" href="#">Learn More</a>
+
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6">
+
+            <div class="row facility-col2-row">
+
+              <div class="col-12 col-md-12 col-lg-12"> 
+
+                <img class="facility-img-1 facility-all-imgs " src="images/Facility-Section/comfort-1.jpg" alt="Comfort of Hotelink">
+                <h3 class="facility-h comfort-h3">Confort & Facility</h3>
+
+              </div>
+
+              <div class="col-6 col-md-6 col-lg-6 security-fun-col"> 
+
+                <img class="facility-img-2 facility-all-imgs" src="images/Facility-Section/camaras.jpg" alt="Security of Hotelink">
+                <h4 class="facility-h security-fun-h4">Safe & Secure</h4>
+
+              </div>
+
+              <div class="col-6 col-md-6 col-lg-6 security-fun-col"> 
+
+                <img class="facility-img-3 facility-all-imgs " src="images/Facility-Section/fun-activities.jpg" alt="Fun Activities of Hotelink">
+                <h4 class="facility-h security-fun-h4">Fun Activities</h4>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- *___________Rooms Section___________* -->
+
+    <section id="rooms">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-6">
+            <h1 class="rooms-h1">Our Best Rooms For You</h1>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6 btn-col">
+            <a class="btn btn-warning rooms-btn" href="#">View All</a>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-7 rooms-col">
+            <img class="room-imgs" src="images/Rooms Section/room-1.jpg" alt="Bed Room 1">
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-5 rooms-col">
+            <img class="room-imgs" src="images/Rooms Section/room-2.jpg" alt="Bed Room 2">
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-5 rooms-col">
+            <img class="room-imgs" src="images/Rooms Section/room-3.jpg" alt="Bed Room-3">
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-7 rooms-col">
+            <img class="room-imgs" src="images/Rooms Section/room-4.jpg" alt="Bed Room 4">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- *_____________Clients Review___________* -->
+
+    <section id="review-section">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-6">
+
+            <h1 class="review-h1">What Our Clients Say</h1>
+
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6 review-carousel-btns">
+
+            <button class="carousel-control-prev review-prev-btn review-prev-next-btns" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next review-next-btn review-prev-next-btns" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+          </div>
+        </div>
+
+        <div id="reviewCarousel" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+
+              <div class="row review-row">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card review-card">
+                    <div class="card-body review-card-body">
+
+                      <h2 class="review-cards-h2">Very Good Service <br/> 🌟🌟🌟🌟🌟</h2>
+                      <p class="review-info-p">Lorem ipsum dolor sit consecte adipisicing elit. Commodi quam in dicta animi officiis veritatis aut! Libero aperiam cupiditate conse.</p>
+
+                      <div class="client-box">
+
+                        <h4 class="client-name-h4"><img class="client-prof-pic" src="images/Review-Section/profile-pic.jpeg" alt="Client Profile picture">Owais Ahmad<br/><span class="client-proffession">A Programmer</span></h4>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4"> 
+                  <div class="card review-card">
+                    <div class="card-body review-card-body">
+
+                      <h2 class="review-cards-h2">Very Good Service <br/> 🌟🌟🌟🌟🌟</h2>
+                      <p class="review-info-p">Lorem ipsum dolor sit consecte adipisicing elit. Commodi quam in dicta animi officiis veritatis aut! Libero aperiam cupiditate conse.</p> 
+                      
+                      <div class="client-box">
+
+                        <h4 class="client-name-h4"><img class="client-prof-pic" src="images/Review-Section/profile-pic.jpeg" alt="Client Profile picture">Owais Ahmad<br/><span class="client-proffession">A Programmer</span></h4>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4">
+                  <div class="card review-card centered-review-card">
+
+                    <div class="card-body review-card-body">
+                      <h2 class="review-cards-h2">Very Good Service <br/> 🌟🌟🌟🌟🌟</h2>
+                      <p class="review-info-p">Lorem ipsum dolor sit consecte adipisicing elit. Commodi quam in dicta animi officiis veritatis aut! Libero aperiam cupiditate conse.</p> 
+
+                      <div class="client-box">
+
+                        <h4 class="client-name-h4"><img class="client-prof-pic" src="images/Review-Section/profile-pic.jpeg" alt="Client Profile picture">Owais Ahmad<br/><span class="client-proffession">A Programmer</span></h4>
+                        
+                        <!--<h6 class="client-profession">A Programmer</h6>-->
+
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Carousel Second Side -->
+
+            <div class="carousel-item">
+
+              <div class="row review-row">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card review-card">
+                    <div class="card-body review-card-body">
+
+                      <h2 class="review-cards-h2">Very Good Service <br/> 🌟🌟🌟🌟🌟</h2>
+                      <p class="review-info-p">Lorem ipsum dolor sit consecte adipisicing elit. Commodi quam in dicta animi officiis veritatis aut! Libero aperiam cupiditate conse.</p>
+
+                      <div class="client-box">
+
+                        <h4 class="client-name-h4"><img class="client-prof-pic" src="images/Review-Section/profile-pic.jpeg" alt="Client Profile picture">Owais Ahmad<br/><span class="client-proffession">A Programmer</span></h4>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4"> 
+                  <div class="card review-card">
+                    <div class="card-body review-card-body">
+
+                      <h2 class="review-cards-h2">Very Good Service <br/> 🌟🌟🌟🌟🌟</h2>
+                      <p class="review-info-p">Lorem ipsum dolor sit consecte adipisicing elit. Commodi quam in dicta animi officiis veritatis aut! Libero aperiam cupiditate conse.</p> 
+                      
+                      <div class="client-box">
+
+                        <h4 class="client-name-h4"><img class="client-prof-pic" src="images/Review-Section/profile-pic.jpeg" alt="Client Profile picture">Owais Ahmad<br/><span class="client-proffession">A Programmer</span></h4>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4">
+                  <div class="card review-card centered-review-card">
+
+                    <div class="card-body review-card-body">
+                      <h2 class="review-cards-h2">Very Good Service <br/> 🌟🌟🌟🌟🌟</h2>
+                      <p class="review-info-p">Lorem ipsum dolor sit consecte adipisicing elit. Commodi quam in dicta animi officiis veritatis aut! Libero aperiam cupiditate conse.</p> 
+
+                      <div class="client-box">
+
+                        <h4 class="client-name-h4"><img class="client-prof-pic" src="images/Review-Section/profile-pic.jpeg" alt="Client Profile picture">Owais Ahmad<br/><span class="client-proffession">A Programmer</span></h4>
+
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>      
+      </div>
+    </section>
+
+
+    <!-- *___________Hotelink Info___________*  -->
+
+    <section id="hotelink-info">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-3 hotleink-title-col">
+            <i class="fas fa-square fa-2x brand-icon"></i>
+            <h2 class="info-h2">Hotelink</h2>
+            <p class="review-info-p">Lorem Ipsum is simply dummy text of printing and typesetting industry Ipsum has been the industry's standard</p>
+            <i href="#" class="fab fa-facebook-f info-icon"></i>
+            <i href="#" class="fab fa-twitter info-icon"></i>
+            <i href="#" class="fab fa-linkedin-in info-icon"></i>
+            <i href="#" class="fab fa-instagram info-icon"></i>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 links-col">
+            <h3 class="info-h3">Useful Links</h3>
+            <a class="info-anchor" href="#">About Us</a>
+            <a class="info-anchor" href="#">Contact Us</a>
+            <a class="info-anchor" href="#">Shop</a>
+            <a class="info-anchor" href="#">Photo Gallery</a>
+            <a class="info-anchor" href="#">Our Location</a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 services-col">
+            <h3 class="info-h3">Services</h3>
+            <a class="info-anchor" href="#">Restaurant</a>
+            <a class="info-anchor" href="#">Swimming Pool</a>
+            <a class="info-anchor" href="#">Wellness Spa</a>
+            <a class="info-anchor" href="#">Conference Room</a>
+            <a class="info-anchor" href="#">Adult Room</a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 insta-col">
+            <h3 class="info-h3">Instagram</h3>
+            <div class="row">
+
+              <div class="col-6 col-md-6 col-lg-6 info-col-1-3">
+                <img class="insta-img" src="images/Hotelink(Instagram)/instagram-1.jpg" alt="Instagram image 1">
+              </div>
+
+              <div class="col-6 col-md-6 col-lg-6 info-col-2-4">
+                <img class="insta-img" src="images/Hotelink(Instagram)/instagram-2.jpg" alt="Instagram image 1">
+              </div>
+
+              <div class="col-6 col-md-6 col-lg-6 info-col-1-3">
+                <img class="insta-img" src="images/Hotelink(Instagram)/instagram-3.jpg" alt="Instagram image 1">
+              </div>
+
+              <div class="col-6 col-md-6 col-lg-6 info-col-2-4">
+                <img class="insta-img" src="images/Hotelink(Instagram)/instagram-4.jpg" alt="Instagram image 1">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- *__________Footer Section___________* -->
+
+    <div id="footer">
+
+        <div class="footer-div">
+          <h4 class="footer-text">Copyright 2021 Hotelink.All Rights Reserved</h4>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
